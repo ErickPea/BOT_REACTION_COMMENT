@@ -2,6 +2,8 @@
   "name": "bot_reaction_comment",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +15,8 @@
     "axios": "^1.10.0",
     "express": "^5.1.0",
     "puppeteer": "^24.13.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "socket.io": "^4.8.1"
   }
 }
